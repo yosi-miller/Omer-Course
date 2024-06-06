@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.continer-items{
+    height: 80vh;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item {
+    /* עיצוב עבור כל פריט בקטלוג */
+    width: 30%;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 5px;
+    /* width: 386px; */
+    height: 508px;
+    justify-self: center;
+
+}
+
+.container-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 20vh;       
+    gap: 5px; 
+  }
+
+.input-area{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 2px solid seagreen;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    align-items: center;
+}
+
+.input input{
+    width: 150px;
+}
